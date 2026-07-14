@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon/24/Metro" clip-path="url(#clip0_0_204)">
+<g id="Vector">
+</g>
+<path id="Ellipse 112" d="M14.6661 8.00026C14.6661 11.6822 11.6814 14.6669 7.99948 14.6669C4.31758 14.6669 1.33281 11.6822 1.33281 8.00026C1.33281 4.31836 4.31758 1.33359 7.99948 1.33359C11.6814 1.33359 14.6661 4.31836 14.6661 8.00026Z" fill="var(--fill-0, #AFC552)"/>
+<path id="M" d="M5.60078 6H6.56858L8.02351 9.14857L9.45247 6H10.4008V10H9.67981V7.05714L8.3158 10H7.68576L6.32176 7.05714V10H5.60078V6Z" fill="var(--fill-0, white)"/>
+</g>
+<defs>
+<clipPath id="clip0_0_204">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>

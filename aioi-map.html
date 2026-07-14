@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1920, initial-scale=1">
+  <title>Все проекты — А101</title>
+  <link rel="stylesheet" href="aioi-map.css?v=close-scroll-lock-1">
+  <link rel="stylesheet" href="aioi-map-title.css?v=close-scroll-lock-1">
+</head>
+<body>
+  <div class="prototype">
+    <div class="safari" aria-hidden="true">
+      <div class="traffic"><i></i><i></i><i></i></div>
+      <img class="safari-sidebar" src="assets/a101-safari-sidebar.svg" alt="">
+      <div class="safari-history">
+        <img src="assets/a101-safari-back.svg" alt="">
+        <img src="assets/a101-safari-forward.svg" alt="">
+      </div>
+      <div class="safari-address-area">
+        <img class="safari-privacy" src="assets/a101-safari-privacy.svg" alt="">
+        <div class="address">
+          <div class="address-copy"><img src="assets/a101-safari-lock.svg" alt=""><span>a101.ru</span></div>
+          <img class="safari-reload" src="assets/a101-safari-reload.svg" alt="">
+        </div>
+      </div>
+      <div class="safari-tools">
+        <img src="assets/a101-safari-download.svg" alt="">
+        <img src="assets/a101-safari-share.svg" alt="">
+        <img src="assets/a101-safari-plus.svg" alt="">
+        <img src="assets/a101-safari-overview.svg" alt="">
+      </div>
+    </div>
+
+    <header class="topbar">
+      <div class="brand-group">
+        <div class="brand-selector">
+          <a class="logo" href="#" aria-label="А101"><img src="assets/a101-header-logo.svg" alt=""></a>
+          <button class="product" type="button">Жилая <img src="assets/a101-header-arrow-down.svg" alt=""></button>
+        </div>
+        <button class="location" type="button"><img src="assets/a101-header-navigation.svg" alt="">Москва</button>
+      </div>
+      <nav aria-label="Основная навигация"><a href="#">Проекты</a><a href="#">Квартиры</a><a href="#">Акции</a><a href="#">Способы покупки</a><a href="#">О компании</a><a href="#">Контакты</a></nav>
+      <div class="header-actions">
+        <a class="phone" href="tel:+74951274098">+7 495 127 40 98</a>
+        <div class="header-menu-actions">
+          <button class="round" type="button" aria-label="Избранное"><img src="assets/a101-header-heart.svg" alt=""></button>
+          <button class="menu" type="button"><span>Меню</span><img src="assets/a101-header-menu.svg" alt=""></button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h1><span>Все проекты</span><img src="assets/a101-figure.svg" alt=""><span>А101</span></h1>
+      <section class="map-section">
+        <div class="filters">
+          <div class="filter-row">
+            <div class="filter-controls">
+              <div class="view-switch"><button class="active" type="button">На карте</button><i aria-hidden="true"></i><button type="button">Плиткой</button></div>
+              <button class="chip" type="button">Москва <img src="assets/a101-header-arrow-down.svg" alt=""></button>
+              <button class="chip rooms" type="button">Комнатность <img src="assets/a101-header-arrow-down.svg" alt=""></button>
+              <div class="price-filter">
+                <div class="price-label-group"><span class="price-label">Стоимость</span><i aria-hidden="true"></i></div>
+                <div class="price-values"><span>5.5 <em>млн ₽</em></span><span>71.5 <em>млн ₽</em></span><i></i><b></b><b></b></div>
+              </div>
+              <button class="chip" type="button">Заселение <img src="assets/a101-header-arrow-down.svg" alt=""></button>
+            </div>
+            <div class="filter-divider"></div>
+            <button class="all-filters" type="button"><span class="filter-icon"><img src="assets/a101-filter-equalizer.svg" alt=""></span><span>Все фильтры</span></button>
+          </div>
+          <button class="result-count" type="button">7 191 кв. в 11 проектах</button>
+        </div>
+
+        <div class="map-area">
+          <div class="map-canvas"></div>
+          <div class="cards" id="project-cards">
+            <article class="card"><div class="photo p1" data-gallery="assets/a101-project-1.webp|assets/a101-project-1.1.webp|assets/a101-project-1.2.webp|assets/a101-project-1.3.webp"><span>Старт продаж</span></div><div class="card-copy"><small>Бизнес-класс</small><h3>«Хольм»<br>от 16,2 млн ₽</h3><div class="transit"><span><img src="assets/a101-metro-red.svg" alt="">Потапово</span><span class="walk"><img src="assets/a101-walk.svg" alt="">до 14 мин.</span></div></div></article>
+            <article class="card"><div class="photo p2" data-gallery="assets/a101-project-2.webp|assets/a101-project-2.1.webp|assets/a101-project-2.2.webp|assets/a101-project-2.3.webp"><span>Старт продаж</span></div><div class="card-copy"><small>Бизнес-класс</small><h3>«Дом на Джалиля»<br>от 18,7 млн ₽</h3><div class="transit"><span><img src="assets/a101-metro-green.svg" alt="">Борисово</span><span class="walk"><img src="assets/a101-walk.svg" alt="">до 8 мин.</span></div></div></article>
+            <article class="card"><div class="photo p3" data-gallery="assets/a101-project-3.webp|assets/a101-project-3.1.webp|assets/a101-project-3.2.webp|assets/a101-project-3.3.webp"><span>Старт продаж</span></div><div class="card-copy"><small>Жилой район</small><h3>«Прокшино»<br>от 13,0 млн ₽</h3><div class="transit"><span><img src="assets/a101-metro-red.svg" alt="">Новомосковская</span><span class="walk"><img src="assets/a101-walk.svg" alt="">до 8 мин.</span></div></div></article>
+            <article class="card"><div class="photo p4" data-gallery="assets/a101-project-4.webp|assets/a101-project-4.1.webp|assets/a101-project-4.2.webp|assets/a101-project-4.3.webp"></div><div class="card-copy"><small>Жилой район</small><h3>«Скандинавия»<br>от 10,7 млн ₽</h3><div class="transit"><span><img src="assets/a101-metro-red.svg" alt="">Потапово</span><span class="walk"><img src="assets/a101-walk.svg" alt="">до 8 мин.</span></div></div></article>
+            <article class="card"><div class="photo p5" data-gallery="assets/a101-project-5.webp|assets/a101-project-5.1.webp|assets/a101-project-5.2.webp|assets/a101-project-5.3.webp"></div><div class="card-copy"><small>Жилой район</small><h3>«Деснаречье»<br>от 9,6 млн ₽</h3><div class="transit"><span><img src="assets/a101-metro-purple.svg" alt="">Десна (2029)</span><span class="walk"><img src="assets/a101-walk.svg" alt="">до 10 мин.</span></div></div></article>
+            <article class="card"><div class="photo p6" data-gallery="assets/a101-project-6.webp|assets/a101-project-6.1.webp|assets/a101-project-6.2.webp|assets/a101-project-6.3.webp"></div><div class="card-copy"><small>Жилой район</small><h3>«Бунинские кварталы»<br>от 8,4 млн ₽</h3><div class="transit"><span><img src="assets/a101-metro-red.svg" alt="">Потапово</span><span class="walk"><img src="assets/a101-walk.svg" alt="">до 22 мин.</span></div></div></article>
+            <article class="card"><div class="photo p7" data-gallery="assets/a101-project-7.webp|assets/a101-project-7.1.webp|assets/a101-project-7.2.webp|assets/a101-project-7.3.webp"></div><div class="card-copy"><small>Жилой район</small><h3>«Южные сады»<br>от 11,4 млн ₽</h3><div class="transit"><span><img src="assets/a101-metro-red.svg" alt="">Бунинская Аллея</span><span class="walk"><img src="assets/a101-walk.svg" alt="">до 14 мин.</span></div></div></article>
+            <article class="card"><div class="photo p8" data-gallery="assets/a101-project-8.webp|assets/a101-project-8.1.webp|assets/a101-project-8.2.webp|assets/a101-project-8.3.webp"></div><div class="card-copy"><small>Жилой район</small><h3>«Дзен-кварталы»<br>от 10,2 млн ₽</h3><div class="transit"><span><img src="assets/a101-metro-red.svg" alt="">Новомосковская</span><span class="walk"><img src="assets/a101-walk.svg" alt="">до 5 мин.</span></div></div></article>
+            <article class="card"><div class="photo p9" data-gallery="assets/a101-project-9.webp|assets/a101-project-9.1.webp|assets/a101-project-9.2.webp|assets/a101-project-9.3.webp"></div><div class="card-copy"><small>Жилой район</small><h3>«Родные кварталы»<br>от 7,4 млн ₽</h3><div class="transit"><span><img src="assets/a101-metro-red.svg" alt="">Аэропорт Внуково</span><span class="walk"><img src="assets/a101-car.svg" alt="">до 15 мин.</span></div></div></article>
+            <article class="card"><div class="photo p10" data-gallery="assets/a101-project-10.webp|assets/a101-project-10.1.webp|assets/a101-project-10.2.webp|assets/a101-project-10.3.webp"></div><div class="card-copy"><small>Жилой район</small><h3>«Дом на Зорге»<br>от 26,4 млн ₽</h3><div class="transit"><span><img src="assets/a101-metro-red.svg" alt="">Зорге</span><span class="walk"><img src="assets/a101-walk.svg" alt="">до 15 мин.</span></div></div></article>
+            <article class="card"><div class="photo p11" data-gallery="assets/a101-project-11.webp|assets/a101-project-11.1.webp|assets/a101-project-11.2.webp|assets/a101-project-11.3.webp"></div><div class="card-copy"><small>Жилой район</small><h3>«Испанские кварталы»<br>м/м от 1,6 млн ₽</h3><div class="transit"><span><img src="assets/a101-metro-red.svg" alt="">Прокшино</span><span class="walk"><img src="assets/a101-walk.svg" alt="">до 15 мин.</span></div></div></article>
+          </div>
+          <section class="project-detail" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="project-detail-title">
+            <div class="project-detail-main">
+              <div class="project-detail-photo">
+                <div class="project-detail-frame is-visible"></div>
+                <div class="project-detail-frame" aria-hidden="true"></div>
+                <div class="project-detail-tags" aria-label="Теги проекта"></div>
+                <button class="project-detail-close" type="button" aria-label="Закрыть подробную карточку">
+                  <img src="assets/a101-close.svg" alt="">
+                </button>
+                <button class="project-detail-gallery-arrow project-detail-gallery-prev" type="button" aria-label="Предыдущее изображение">
+                  <img src="assets/a101-arrow-left-s.svg" alt="">
+                </button>
+                <button class="project-detail-gallery-arrow project-detail-gallery-next" type="button" aria-label="Следующее изображение">
+                  <img src="assets/a101-arrow-right-s.svg" alt="">
+                </button>
+                <div class="project-detail-pagination" aria-hidden="true"></div>
+              </div>
+              <div class="project-detail-copy">
+                <h2 id="project-detail-title"></h2>
+                <div class="project-detail-transit">
+                  <img class="project-detail-metro-icon" src="assets/a101-metro-red.svg" alt="">
+                  <span class="project-detail-metro"></span>
+                  <span class="project-detail-time"></span>
+                </div>
+              </div>
+            </div>
+            <div class="project-detail-offers" aria-label="Предложения по типам квартир"></div>
+            <div class="project-detail-actions">
+              <button type="button" class="project-detail-about">О проекте</button>
+              <button type="button" class="project-detail-apartments">Смотреть квартиры</button>
+            </div>
+          </section>
+          <button class="expand" type="button" aria-label="Скрыть карточки проектов" aria-controls="project-cards" aria-expanded="true">
+            <img class="expand-icon expand-icon-default" src="assets/a101-expand-hide.svg" alt="">
+            <img class="expand-icon expand-icon-hover" src="assets/a101-expand-hide-hover.svg" alt="">
+            <img class="expand-icon expand-icon-collapse" src="assets/a101-expand-show.svg" alt="">
+            <img class="expand-icon expand-icon-collapse-hover" src="assets/a101-expand-show-hover.svg" alt="">
+            <span class="expand-tooltip" aria-hidden="true">
+              <img src="assets/a101-tooltip-arrow.svg" alt="">
+              <span>Скрыть карточки проектов</span>
+            </span>
+          </button>
+          <div class="marker marker-rodnye"><img src="assets/a101-marker-rodnye.webp" alt=""><div class="marker-body"><span class="marker-name">Родные кварталы</span><span class="marker-price">от 7,5 млн</span></div></div>
+          <div class="marker marker-desna"><img src="assets/a101-project-5.webp" alt=""><div class="marker-body"><span class="marker-name">Деснаречье</span><span class="marker-price">от 9,6 млн</span></div></div>
+          <div class="marker marker-bun"><img src="assets/a101-project-6.webp" alt=""><div class="marker-body"><span class="marker-name">Бунинские кварталы</span><span class="marker-price">от 8,4 млн</span></div></div>
+          <div class="marker marker-jalil"><img src="assets/a101-project-2.webp" alt=""><div class="marker-body"><span class="marker-name">Дом на Джалиля</span><span class="marker-price">от 18,7 млн</span></div></div>
+          <div class="cluster cluster-two"><i>+2</i><span class="cluster-body"><b>от 20 млн</b></span></div>
+          <div class="cluster cluster-four"><i>+4</i><span class="cluster-body"><b>от 10,7 млн</b></span></div>
+          <div class="zoom"><div><img src="assets/a101-zoom-in.svg" alt=""></div><div><img src="assets/a101-zoom-out.svg" alt=""></div></div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="aioi-map.js?v=pin-project-switch-1"></script>
+</body>
+</html>
