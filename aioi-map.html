@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=1920, initial-scale=1">
   <title>Все проекты — А101</title>
-  <link rel="stylesheet" href="aioi-map.css?v=close-scroll-lock-1">
-  <link rel="stylesheet" href="aioi-map-title.css?v=close-scroll-lock-1">
+  <link rel="stylesheet" href="aioi-map.css?v=apartments-hover-1">
+  <link rel="stylesheet" href="aioi-map-title.css?v=cluster-hover-2">
 </head>
 <body>
   <div class="prototype">
@@ -131,13 +131,25 @@
           <div class="marker marker-desna"><img src="assets/a101-project-5.webp" alt=""><div class="marker-body"><span class="marker-name">Деснаречье</span><span class="marker-price">от 9,6 млн</span></div></div>
           <div class="marker marker-bun"><img src="assets/a101-project-6.webp" alt=""><div class="marker-body"><span class="marker-name">Бунинские кварталы</span><span class="marker-price">от 8,4 млн</span></div></div>
           <div class="marker marker-jalil"><img src="assets/a101-project-2.webp" alt=""><div class="marker-body"><span class="marker-name">Дом на Джалиля</span><span class="marker-price">от 18,7 млн</span></div></div>
-          <div class="cluster cluster-two"><i>+2</i><span class="cluster-body"><b>от 20 млн</b></span></div>
-          <div class="cluster cluster-four"><i>+4</i><span class="cluster-body"><b>от 10,7 млн</b></span></div>
+          <div class="cluster cluster-two">
+            <i>+2</i><span class="cluster-body"><b>от 20 млн</b></span>
+            <div class="cluster-tooltip" aria-hidden="true">
+              <div class="cluster-tooltip-copy">Кликните, чтобы посмотреть<br>проекты в этой зоне</div>
+              <img src="assets/a101-cluster-tooltip-arrow.svg" alt="">
+            </div>
+          </div>
+          <div class="cluster cluster-four">
+            <i>+4</i><span class="cluster-body"><b>от 10,7 млн</b></span>
+            <div class="cluster-tooltip" aria-hidden="true">
+              <div class="cluster-tooltip-copy">Кликните, чтобы посмотреть<br>проекты в этой зоне</div>
+              <img src="assets/a101-cluster-tooltip-arrow.svg" alt="">
+            </div>
+          </div>
           <div class="zoom"><div><img src="assets/a101-zoom-in.svg" alt=""></div><div><img src="assets/a101-zoom-out.svg" alt=""></div></div>
         </div>
       </section>
     </main>
   </div>
-  <script src="aioi-map.js?v=pin-project-switch-1"></script>
+  <script src="aioi-map.js?v=apartments-hover-1"></script>
 </body>
 </html>

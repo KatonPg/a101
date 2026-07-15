@@ -257,7 +257,7 @@ const sharedProjectOffers = [
 const projectDetailData = {
   "Хольм": {
     tags: ["Старт продаж", "1 кв. 2029", "Новый проект"],
-    apartmentsLabel: "Смотреть 178 квартир",
+    apartmentsLabel: "Смотреть 177 квартир",
     offers: sharedProjectOffers,
   },
 };

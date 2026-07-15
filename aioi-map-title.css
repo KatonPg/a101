@@ -887,6 +887,64 @@ h1 img {
 
 .cluster {
   isolation: isolate;
+  cursor: pointer;
+}
+
+.cluster-tooltip {
+  position: absolute;
+  z-index: 4;
+  top: -69.071px;
+  left: 18px;
+  display: flex;
+  width: 229px;
+  height: 65.071px;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateX(-50%) translateY(4px);
+  transition:
+    opacity 160ms cubic-bezier(.2, 0, 0, 1),
+    transform 240ms cubic-bezier(.22, 1, .36, 1),
+    visibility 0s linear 240ms;
+}
+
+.cluster-tooltip-copy {
+  display: flex;
+  width: 229px;
+  height: 58px;
+  flex: 0 0 58px;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 20px;
+  border-radius: 6px;
+  background: rgba(27, 29, 36, .6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -.28px;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.cluster-tooltip > img {
+  display: block;
+  width: 16px;
+  height: 7.071px;
+  flex: 0 0 7.071px;
+  transform: scaleY(-1);
+}
+
+.cluster:hover .cluster-tooltip,
+.cluster:focus-visible .cluster-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+  transition-delay: 0s;
 }
 
 .cluster-two {
@@ -1052,7 +1110,8 @@ h1 img {
   }
 
   .marker,
-  .cluster {
+  .cluster,
+  .cluster-tooltip {
     transition: none;
   }
 }
@@ -1485,7 +1544,7 @@ h1 img {
   letter-spacing: -.32px;
   font-weight: 500;
   cursor: pointer;
-  transition: transform 160ms ease, background-color 160ms ease;
+  transition: transform 160ms ease, background-color 160ms ease, color 160ms ease;
 }
 
 .project-detail-about {
@@ -1499,8 +1558,15 @@ h1 img {
 }
 
 .project-detail-actions button:hover { transform: scale(.985); }
-.project-detail-about:hover { background: #e9eaed; }
-.project-detail-apartments:hover { background: #d92d34; }
+.project-detail-actions .project-detail-about:hover {
+  background: #fdebec;
+  color: #d8282f;
+  transform: none;
+}
+.project-detail-actions .project-detail-apartments:hover {
+  background: #43495a;
+  transform: none;
+}
 
 .project-detail.is-open .project-detail-tags,
 .project-detail.is-open .project-detail-close,
